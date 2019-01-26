@@ -27,7 +27,7 @@ for (var k=0;k<(rows.length-1)/10 - 1;k++)
         {
             rowJSON.journal.series = rowJSON.journal.series.replace(/'/g,' ');
         }
-        if (rowJSON.journal.editor + null)
+        if (rowJSON.journal.editor != null)
         {
             rowJSON.journal.editor = rowJSON.journal.editor.replace(/'/g,' ');
         }

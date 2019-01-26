@@ -34,3 +34,9 @@ CREATE TABLE IF NOT EXISTS DBLP(
 /* DROP TABLE DBLP; */
 
 SELECT Count(*) FROM DBLP;
+
+/*
+SELECT authors FROM DBLP;
+SELECT journal.series FROM DBLP;
+SELECT pages.start,pages.end FROM DBLP;
+*/

@@ -5,6 +5,7 @@ var doc = fs.readFileSync('./DBLP_clean.json');
 var rows = String(doc).split('\n');
 
 // Add field id
+// Warning : Each time the script is executed, the id value is randomly modified
 
 var newDoc = '';
 
